@@ -1,0 +1,47 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "Avetik"
+    },
+    {
+      "id": 2,
+      "name": "Oleg"
+    },
+    {
+      "id": 3,
+      "name": "Dmitry"
+    },
+    {
+      "id": 4,
+      "name": "Pavel"
+    }
+  ],
+  "matches": [
+    {
+      "id": 1,
+      "redTeam": {
+        "player1": "Avetik",
+        "player2": "Oleg",
+        "score": 10
+      },
+      "blueTeam": {
+        "player1": "Dmitry",
+        "player2": "Pavel",
+        "score": 6
+      }
+    }, {
+      "id": 2,
+      "redTeam": {
+        "player1": "Oleg",
+        "player2": "Pavel",
+        "score": 10
+      },
+      "blueTeam": {
+        "player1": "Avetik",
+        "player2": "Dmitry",
+        "score": 9
+      }
+    }
+  ]
+}
