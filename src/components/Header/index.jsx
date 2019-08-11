@@ -26,8 +26,13 @@ export default function Header() {
   return (
     <div className={classes.root}>
       <AppBar position="static">
-        <Toolbar className='container'>
-          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
+        <Toolbar className="container">
+          <IconButton
+            edge="start"
+            className={classes.menuButton}
+            color="inherit"
+            aria-label="menu"
+          >
             <MenuIcon />
           </IconButton>
 
@@ -35,8 +40,12 @@ export default function Header() {
             Kicker Dashboard
           </Typography>
 
-          <Button color="inherit" component={Link} to='/matches'>Matches</Button>
-          <Button color="inherit" component={Link} to='/players'>Players</Button>
+          <Button color="inherit" component={Link} to="/matches">
+            Matches
+          </Button>
+          <Button color="inherit" component={Link} to="/players">
+            Players
+          </Button>
         </Toolbar>
       </AppBar>
     </div>
